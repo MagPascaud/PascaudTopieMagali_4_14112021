@@ -822,7 +822,21 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+/* OPTIMISATION */
+.citation p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.citation cite {
+    font-size: 14px;
+}
+.presentation {
+    font-size: 20px;
+    margin: 0 25px 25px 25px;
 }
 
 @media (max-width: 1024px) {
