@@ -10,7 +10,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 
@@ -495,7 +494,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h2,
 h3,
 h4,
 h5,
@@ -505,7 +503,7 @@ label,
 .btn {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #333333;
 }
 
 .container {
@@ -602,48 +600,43 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #333333;
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #EDEDED;
+}
+.bgc-red {
+    background-color: #962d21;
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #df4937;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #df4937;
 }
 
-.tc-white {
-    color: #F3976C!important;
+.tc-white h2{
+    color: white;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #962d21;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #df4937;
+    text-decoration: underline;
 }
 
-.ltc-white {
-    color: #FFFFFF!important;
-}
 
-.ltc-white:hover {
-    color: #cccccc!important;
-}
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
@@ -663,12 +656,12 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-color: #EDEDED;
 }
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
-}
+    }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
@@ -691,12 +684,14 @@ h4 {
     font-size: 20px;
 }
 footer {
-    border-top: #575757 solid 0.8px;
     padding: 50px 20px 50px 20px;
-    background-color: #928775;
+    background-color: #333333;
 }
 footer a {
-    color:black !important;
+    color: #EDEDED !important;
+}
+footer a:hover {
+    color: #df4937 !important;
 }
 .titre {
     color: white;
@@ -709,21 +704,22 @@ footer a {
     font-size: 25px;
     color: white !important;
 }
+
 nav a {
-    color: black;
-    text-decoration: underline 1px #F3976C;
+    color: white;
+    font-size: 18px; 
+    
 }
 nav a:hover{
     color: white;
-    background-color: #F3976C !important;
+    background-color: #df4937 !important;
+    text-decoration: underline 1px white !important;
 }
 a {
     color: black;
 }
 a:hover {
-    border: none;
-    background-color: #928775;
-    color: white;
+    color: #EDEDED;
     text-decoration: none;
 }
 
