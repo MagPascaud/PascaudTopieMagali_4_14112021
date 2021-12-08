@@ -84,12 +84,6 @@ button {
     left: 0;
     right: 0;
 }
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -556,6 +550,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: white;
 }
 
 h3 {
@@ -676,12 +671,14 @@ h4 {
 .citation cite {
     font-size: 14px;
 }
-.presentation {
+.presentation h2{
     font-size: 20px;
     margin: 0 25px 25px 25px;
+    color: #333333 !important;
 }
-.realisation {
+.realisation h2{
     font-size: 20px;
+    color: #333333;
 }
 footer {
     padding: 50px 20px 50px 20px;
