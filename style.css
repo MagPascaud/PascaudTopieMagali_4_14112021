@@ -40,7 +40,7 @@ button {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 20px;
 }
 
 .bloc-md {
@@ -355,8 +355,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+    box-shadow: 2px 2px 5px;
 }
 
 .scrollToTop {
@@ -493,11 +492,10 @@ h4,
 h5,
 h6,
 p,
-label,
-.btn {
+label {
     font-family: "helvetica";
     font-weight: 400;
-    color: #333333;
+    color: #303030;
 }
 
 .container {
@@ -534,17 +532,18 @@ p {
 
 
 .cta-hero {
-    margin-top: 22px;
-    color: #FFFFFF!important;
+    margin-top: 50px;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    text-decoration: underline;
 }
 
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-top: 20px;
 }
 
 h2 {
@@ -557,7 +556,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #303030!important;
 }
 
 .med-width-whitespace {
@@ -569,7 +568,7 @@ h3 {
 
 
 h4 {
-    color: #333333!important;
+    color: #303030!important;
 }
 
 .icons {
@@ -595,7 +594,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #333333;
+    background-color: #303030;
     padding: 40px 40px 40px 40px;
 }
 
@@ -607,15 +606,15 @@ h4 {
     background-color: #EDEDED;
 }
 .bgc-red {
-    background-color: #962d21;
+    background-color: #EDEDED;
 }
 
 .bgc-dark-slate-blue {
-    background-color: #df4937;
+    background-color: #cfac49;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #df4937;
+    background-color: #cfac49;
 }
 
 .tc-white h2{
@@ -623,15 +622,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #962d21;
+    background: #cfac49;
+    color: black;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #df4937;
-    text-decoration: underline;
+    background: white;
+    color: #962D21 !important;
 }
-
-
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
@@ -646,9 +644,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
 .bg-lines-h2-bg {
     background-color: #EDEDED;
@@ -663,10 +658,18 @@ h4 {
 }
 
 /* OPTIMISATION */
+
+.col-sm-6 {
+    padding: 20px;
+}
 .citation p {
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
+}
+blockquote {
+    border-left: none;
+    padding: 70px 20px 0 20px;
 }
 .citation cite {
     font-size: 14px;
@@ -674,21 +677,34 @@ h4 {
 .presentation h2{
     font-size: 20px;
     margin: 0 25px 25px 25px;
-    color: #333333 !important;
+    color: #303030 !important;
 }
 .realisation h2{
     font-size: 20px;
-    color: #333333;
+    color: #303030;
+}
+.partenaires {
+padding: 0 20px 20px;
+}
+.partenaires span {
+    margin-right: 20px;
 }
 footer {
-    padding: 50px 20px 50px 20px;
-    background-color: #333333;
+    padding: 25px 20px 25px 20px;
+    background-color: #303030;
 }
 footer a {
     color: #EDEDED !important;
 }
 footer a:hover {
-    color: #df4937 !important;
+    color: #cfac49 !important;
+}
+footer p {
+    color: white;
+    margin-top: 25px;
+}
+.titre-footer {
+    font-size: 20px;
 }
 .titre {
     color: white;
@@ -703,22 +719,38 @@ footer a:hover {
 }
 
 nav a {
-    color: white;
+    color: black;
     font-size: 18px; 
-    
+    text-decoration: underline;
 }
-nav a:hover{
-    color: white;
-    background-color: #df4937 !important;
-    text-decoration: underline 1px white !important;
+nav ul a:hover{
+    color: #962D21;
+    background-color: white !important;
 }
 a {
     color: black;
+    text-decoration: underline;
 }
 a:hover {
-    color: #EDEDED;
-    text-decoration: none;
+    color: #cfac49;
+    
 }
+
+.bloc-contact {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    color: #000000;
+    line-height: 2;
+    font-size: 16px;
+}
+.form-group {
+    margin-bottom: 35px;
+}
+.row {
+    margin: auto;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -906,7 +938,7 @@ a:hover {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 10px;
     }
     .close-lightbox {
         display: inline-block;
