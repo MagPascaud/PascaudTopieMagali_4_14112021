@@ -679,6 +679,10 @@ blockquote {
     margin: 0 25px 25px 25px;
     color: #303030 !important;
 }
+.description p {
+    text-align: center;
+    color: white;
+}
 .realisation h2{
     font-size: 20px;
     color: #303030;
